@@ -1,0 +1,256 @@
+{
+  "id": 8309078934191222,
+  "address": "Budaörs",
+  "name": "Károly Király utca",
+  "panoramas": [
+    {
+      "id": 1307049472966202,
+      "name": "Előszoba",
+      "preview": "assets/images/hall1_thumbnail.jpg",
+      "viewBox": [
+        0,
+        0.26944757609921083,
+        1,
+        0.6344983089064261
+      ],
+      "headingAngle": 2.9381166545774855,
+      "file": "assets/images/hall1.jpg",
+      "transitions": [
+        {
+          "id": 1095729424640604,
+          "fromPanoramaId": 1307049472966202,
+          "toPanoramaId": 2012102252297692,
+          "latitude": -0.1326227794460166,
+          "longitude": 5.6882623813372675
+        },
+        {
+          "id": 8007185202408660,
+          "fromPanoramaId": 1307049472966202,
+          "toPanoramaId": 7981417366922756,
+          "latitude": -0.1988852697797008,
+          "longitude": 2.8025539701482383
+        }
+      ]
+    },
+    {
+      "id": 7981417366922756,
+      "name": "Előszoba 2",
+      "preview": "assets/images/hall2_thumbnail.jpg",
+      "viewBox": [
+        0,
+        0.26398916967509023,
+        1,
+        0.6342509025270758
+      ],
+      "headingAngle": 1.8248286752243486,
+      "file": "assets/images/hall2.jpg",
+      "transitions": [
+        {
+          "id": 8415612689060988,
+          "fromPanoramaId": 7981417366922756,
+          "toPanoramaId": 1307049472966202,
+          "latitude": -0.3110192023395982,
+          "longitude": 6.088917122977874
+        },
+        {
+          "id": 5121868345084788,
+          "fromPanoramaId": 7981417366922756,
+          "toPanoramaId": 642563437451096,
+          "latitude": -0.1376669017540606,
+          "longitude": 4.680322344553995
+        },
+        {
+          "id": 2937799698328206,
+          "fromPanoramaId": 7981417366922756,
+          "toPanoramaId": 723933800300574,
+          "latitude": -0.013893258813740766,
+          "longitude": 3.1754241106196446
+        },
+        {
+          "id": 5899841306684338,
+          "fromPanoramaId": 7981417366922756,
+          "toPanoramaId": 3414834329461886,
+          "latitude": 0.09623364145888554,
+          "longitude": 1.3224790936996378
+        },
+        {
+          "id": 397940529540042,
+          "fromPanoramaId": 7981417366922756,
+          "toPanoramaId": 5782228556428996,
+          "latitude": 0.09046532585026908,
+          "longitude": 2.064514942048555
+        }
+      ]
+    },
+    {
+      "id": 642563437451096,
+      "name": "Fürdőszoba",
+      "preview": "assets/images/bathroom_thumbnail.jpg",
+      "viewBox": [
+        0,
+        0.26549491211840887,
+        1,
+        0.6366790009250693
+      ],
+      "headingAngle": 5.048007033691226,
+      "file": "assets/images/bathroom.jpg",
+      "transitions": [
+        {
+          "id": 2892635772935982,
+          "fromPanoramaId": 642563437451096,
+          "toPanoramaId": 7981417366922756,
+          "latitude": -0.22932813789952652,
+          "longitude": 2.417103603571702
+        }
+      ]
+    },
+    {
+      "id": 723933800300574,
+      "name": "Hálószoba",
+      "preview": "assets/images/room_thumbnail.jpg",
+      "viewBox": [
+        0,
+        0.2706442831215971,
+        1,
+        0.6436025408348457
+      ],
+      "headingAngle": 3.7035650144567396,
+      "file": "assets/images/room.jpg",
+      "transitions": [
+        {
+          "id": 4681973764852676,
+          "fromPanoramaId": 723933800300574,
+          "toPanoramaId": 7981417366922756,
+          "latitude": -0.1961963944079132,
+          "longitude": 0.3075071554304938
+        }
+      ]
+    },
+    {
+      "id": 2012102252297692,
+      "name": "Lépcsőház",
+      "preview": "assets/images/stairs_thumbnail.jpg",
+      "viewBox": [
+        0,
+        0.2519540229885057,
+        1,
+        0.6245977011494253
+      ],
+      "headingAngle": 5.752904533542421,
+      "file": "assets/images/stairs.jpg",
+      "transitions": [
+        {
+          "id": 4115588674221356,
+          "fromPanoramaId": 2012102252297692,
+          "toPanoramaId": 1307049472966202,
+          "latitude": -0.2538712308095621,
+          "longitude": 3.003550976893564
+        },
+        {
+          "id": 1318903813849954,
+          "fromPanoramaId": 2012102252297692,
+          "toPanoramaId": 5989092684528288,
+          "latitude": -0.32326002636616386,
+          "longitude": 6.068456999676116
+        }
+      ]
+    },
+    {
+      "id": 3414834329461886,
+      "name": "Konyha",
+      "preview": "assets/images/kitchen_thumbnail.jpg",
+      "viewBox": [
+        0,
+        0.2905651777575205,
+        1,
+        0.662260711030082
+      ],
+      "headingAngle": 0.32569659442724364,
+      "file": "assets/images/kitchen.jpg",
+      "transitions": [
+        {
+          "id": 3470927972256076,
+          "fromPanoramaId": 3414834329461886,
+          "toPanoramaId": 2027083889992966,
+          "latitude": -0.19166685382950582,
+          "longitude": 1.167905787504131
+        },
+        {
+          "id": 5293486526655380,
+          "fromPanoramaId": 3414834329461886,
+          "toPanoramaId": 5782228556428996,
+          "latitude": -0.17201571130749613,
+          "longitude": 3.1579727847515637
+        }
+      ]
+    },
+    {
+      "id": 5782228556428996,
+      "name": "Nappali",
+      "preview": "assets/images/livingroom_thumbnail.jpg",
+      "viewBox": [
+        0,
+        0.28275551553354344,
+        1,
+        0.6555605583070689
+      ],
+      "headingAngle": 6.242983551085186,
+      "file": "assets/images/livingroom.jpg",
+      "transitions": [
+        {
+          "id": 6476597329763644,
+          "fromPanoramaId": 5782228556428996,
+          "toPanoramaId": 3414834329461886,
+          "latitude": -0.1255874254215361,
+          "longitude": 3.6844057013273037
+        }
+      ]
+    },
+    {
+      "id": 2027083889992966,
+      "name": "Terasz",
+      "preview": "assets/images/terrace_thumbnail.jpg",
+      "viewBox": [
+        0,
+        0.29852064473393686,
+        1,
+        0.6657098697284168
+      ],
+      "headingAngle": 4.6359596825673695,
+      "file": "assets/images/terrace.jpg",
+      "transitions": [
+        {
+          "id": 3071431000668158,
+          "fromPanoramaId": 2027083889992966,
+          "toPanoramaId": 3414834329461886,
+          "latitude": -0.09011985306099243,
+          "longitude": 2.396335155895786
+        }
+      ]
+    },
+    {
+      "id": 5989092684528288,
+      "name": "Főbejárat",
+      "preview": "assets/images/mainentrance_thumbnail.jpg",
+      "viewBox": [
+        0,
+        0.29964850615114236,
+        1,
+        0.6550966608084359
+      ],
+      "headingAngle": 3.495812657732354,
+      "file": "assets/images/mainentrance.jpg",
+      "transitions": [
+        {
+          "id": 7840926216791724,
+          "fromPanoramaId": 5989092684528288,
+          "toPanoramaId": 2012102252297692,
+          "latitude": 0.043642693202165794,
+          "longitude": 3.5803206278774184
+        }
+      ]
+    }
+  ],
+  "creationTime": "Sun Jan 24 2021 20:18:49 GMT+0100 (Central European Standard Time)",
+  "preview": "assets/images/kitchen.jpg"
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width, height=device-height, user-scalable=no">
+		<meta name="HandheldFriendly" content="true">
+		<title>Take a virtual tour</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	</head>
+	<body style="display: none;" onload="document.body.removeAttribute('style');">
+		<div id="loadingPage" class="flexCenter fullPage hidden">
+			<div class="vbox">
+				<p>Loading...</p>
+				<div class="loadingBar">
+					<div id="progressBar"></div>
+				</div>
+			</div>
+		</div>
+		<div id="loadingBG" class="loadingBG invisible"></div>
+		<div id="errorPage" class="flexCenter fullPage hidden">
+			<div class="vbox">
+				<h2>Sorry, your browser isn't supported</h2>
+				<p>Please update it, or try another one.</p>
+			</div>
+		</div>
+		<div id="startTourPage" class="flexCenter fullPage btn hidden">
+			<div id="startTour" class="btn bigBtn flexCenter"><span class="triangleRight"></span>START TOUR</div>
+		</div>
+		<div id="scene" class="invisible">
+			<main>
+				<canvas id="myCanvas"></canvas>
+			</main>
+			<div id="menu" class="vbox">
+				<div class="hbox buttons">
+					<div id="imageListToggler" class="btn flexCenter arrow" title="Close Menu"></div>
+					<div id="fullscreenToggler" class="btn flexCenter" title="Enter Fullscreen"></div>
+				</div>
+				<div id="imageList"></div>
+			</div>
+			<a class="footer flexCenter" href="https://vargapeter.info" rel="nofollow" target="_blank">Powered By Varga Bros</a>
+		</div>
+		<script>
+			if (typeof Promise === "undefined" || typeof URLSearchParams === "undefined" || typeof Array.prototype.includes === "undefined")
+			{
+				document.getElementById("errorPage").classList.remove("hidden");
+			}
+		</script>
+		<script src="js/app.bundle.js"></script>
+	</body>
+</html>
